@@ -4,7 +4,7 @@ using cAlgo.API.Indicators;
 
 namespace cAlgo.Indicators
 {
-    [Indicator(IsOverlay = true, AccessRights = AccessRights.None)]
+    [Indicator(IsOverlay = true, AccessRights = AccessRights.None, AutoRescale = false)]
     public class VC_Supertrend : Indicator
     {
         [Parameter(DefaultValue = "Daily")]
